@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.techcamp.firstapp.FirstAppApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-16T01:04:26" hostname="MacBookAir.local" time="0.395">
+  <properties/>
+  <testcase name="contextLoads()" classname="in.techcamp.firstapp.FirstAppApplicationTests" time="0.395"/>
+  <system-out><![CDATA[10:04:22.457 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [in.techcamp.firstapp.FirstAppApplicationTests]: FirstAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:04:22.493 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration in.techcamp.firstapp.FirstAppApplication for test class in.techcamp.firstapp.FirstAppApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.2.10)
+
+2024-10-16T10:04:22.612+09:00  INFO 48467 --- [    Test worker] i.t.firstapp.FirstAppApplicationTests    : Starting FirstAppApplicationTests using Java 21.0.4 with PID 48467 (started by suzuki in /Users/suzuki/java-project/firstapp)
+2024-10-16T10:04:22.613+09:00  INFO 48467 --- [    Test worker] i.t.firstapp.FirstAppApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-10-16T10:04:22.905+09:00  INFO 48467 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-16T10:04:25.751+09:00  INFO 48467 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79ba0a6f
+2024-10-16T10:04:25.755+09:00  INFO 48467 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-16T10:04:26.418+09:00  INFO 48467 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-16T10:04:26.537+09:00  INFO 48467 --- [    Test worker] i.t.firstapp.FirstAppApplicationTests    : Started FirstAppApplicationTests in 3.999 seconds (process running for 4.403)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/suzuki/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.19/154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1/byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
